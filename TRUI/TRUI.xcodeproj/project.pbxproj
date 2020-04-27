@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04350E772456E0B20083C4E3 /* NSAttributedString+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E762456E0B20083C4E3 /* NSAttributedString+TRUI.m */; };
+		0440283A24552D660015AFB9 /* CALayer+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440283924552D660015AFB9 /* CALayer+TRUI.m */; };
+		0440283E24555B480015AFB9 /* TRUIRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440283D24555B480015AFB9 /* TRUIRuntime.m */; };
+		044028422455711B0015AFB9 /* TRUIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 044028412455711B0015AFB9 /* TRUIConfiguration.m */; };
+		04402845245582400015AFB9 /* NSString+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04402844245582400015AFB9 /* NSString+TRUI.m */; };
+		04402849245675280015AFB9 /* NSMethodSignature+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04402848245675280015AFB9 /* NSMethodSignature+TRUI.m */; };
 		044CD3DE2450327200A31831 /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD3DD2450327200A31831 /* TRAppDelegate.m */; };
 		044CD3E92450327800A31831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CD3E82450327800A31831 /* Assets.xcassets */; };
 		044CD3EC2450327800A31831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CD3EA2450327800A31831 /* LaunchScreen.storyboard */; };
 		044CD3EF2450327800A31831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD3EE2450327800A31831 /* main.m */; };
 		044CD3F72450340700A31831 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD3F62450340700A31831 /* TRViewController.m */; };
+		044CD3FD245041DC00A31831 /* TRUILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD3FC245041DC00A31831 /* TRUILogger.m */; };
+		044CD4002450454700A31831 /* TRUILogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD3FF2450454700A31831 /* TRUILogItem.m */; };
+		044CD4032450488300A31831 /* TRUILogNameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD4022450488300A31831 /* TRUILogNameManager.m */; };
+		044CD40A24513F5400A31831 /* NSArray+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD40924513F5400A31831 /* NSArray+TRUI.m */; };
+		044CD40D2451670300A31831 /* NSCharacterSet+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD40C2451670300A31831 /* NSCharacterSet+TRUI.m */; };
+		044CD4102451702A00A31831 /* NSNumber+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD40F2451702A00A31831 /* NSNumber+TRUI.m */; };
+		044CD4132451714100A31831 /* TRUIWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD4122451714100A31831 /* TRUIWeakObjectContainer.m */; };
+		044CD416245180DD00A31831 /* NSPointerArray+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD415245180DD00A31831 /* NSPointerArray+TRUI.m */; };
+		044CD4192451823D00A31831 /* NSObject+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CD4182451823D00A31831 /* NSObject+TRUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04350E752456E0B20083C4E3 /* NSAttributedString+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+TRUI.h"; sourceTree = "<group>"; };
+		04350E762456E0B20083C4E3 /* NSAttributedString+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+TRUI.m"; sourceTree = "<group>"; };
+		04402837245523E70015AFB9 /* TRUICommonDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUICommonDefines.h; sourceTree = "<group>"; };
+		0440283824552D650015AFB9 /* CALayer+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+TRUI.h"; sourceTree = "<group>"; };
+		0440283924552D660015AFB9 /* CALayer+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TRUI.m"; sourceTree = "<group>"; };
+		0440283B24553A980015AFB9 /* TRUILab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUILab.h; sourceTree = "<group>"; };
+		0440283C24555B480015AFB9 /* TRUIRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUIRuntime.h; sourceTree = "<group>"; };
+		0440283D24555B480015AFB9 /* TRUIRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRUIRuntime.m; sourceTree = "<group>"; };
+		0440283F24556B680015AFB9 /* TRUIConfigurationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUIConfigurationMacros.h; sourceTree = "<group>"; };
+		044028402455711B0015AFB9 /* TRUIConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUIConfiguration.h; sourceTree = "<group>"; };
+		044028412455711B0015AFB9 /* TRUIConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRUIConfiguration.m; sourceTree = "<group>"; };
+		04402843245582400015AFB9 /* NSString+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TRUI.h"; sourceTree = "<group>"; };
+		04402844245582400015AFB9 /* NSString+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TRUI.m"; sourceTree = "<group>"; };
+		0440284624558FB10015AFB9 /* TRUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUIKit.h; sourceTree = "<group>"; };
+		04402847245675280015AFB9 /* NSMethodSignature+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMethodSignature+TRUI.h"; sourceTree = "<group>"; };
+		04402848245675280015AFB9 /* NSMethodSignature+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMethodSignature+TRUI.m"; sourceTree = "<group>"; };
 		044CD3D92450327200A31831 /* TRUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CD3DC2450327200A31831 /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
 		044CD3DD2450327200A31831 /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +55,25 @@
 		044CD3EE2450327800A31831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		044CD3F52450340700A31831 /* TRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
 		044CD3F62450340700A31831 /* TRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
+		044CD3FB245041DC00A31831 /* TRUILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUILogger.h; sourceTree = "<group>"; };
+		044CD3FC245041DC00A31831 /* TRUILogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRUILogger.m; sourceTree = "<group>"; };
+		044CD3FE2450454700A31831 /* TRUILogItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUILogItem.h; sourceTree = "<group>"; };
+		044CD3FF2450454700A31831 /* TRUILogItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRUILogItem.m; sourceTree = "<group>"; };
+		044CD4012450488300A31831 /* TRUILogNameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUILogNameManager.h; sourceTree = "<group>"; };
+		044CD4022450488300A31831 /* TRUILogNameManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRUILogNameManager.m; sourceTree = "<group>"; };
+		044CD4042451314800A31831 /* TRUILog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUILog.h; sourceTree = "<group>"; };
+		044CD40824513F5400A31831 /* NSArray+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+TRUI.h"; sourceTree = "<group>"; };
+		044CD40924513F5400A31831 /* NSArray+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TRUI.m"; sourceTree = "<group>"; };
+		044CD40B2451670300A31831 /* NSCharacterSet+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+TRUI.h"; sourceTree = "<group>"; };
+		044CD40C2451670300A31831 /* NSCharacterSet+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+TRUI.m"; sourceTree = "<group>"; };
+		044CD40E2451702A00A31831 /* NSNumber+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TRUI.h"; sourceTree = "<group>"; };
+		044CD40F2451702A00A31831 /* NSNumber+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+TRUI.m"; sourceTree = "<group>"; };
+		044CD4112451714100A31831 /* TRUIWeakObjectContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUIWeakObjectContainer.h; sourceTree = "<group>"; };
+		044CD4122451714100A31831 /* TRUIWeakObjectContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRUIWeakObjectContainer.m; sourceTree = "<group>"; };
+		044CD414245180DD00A31831 /* NSPointerArray+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSPointerArray+TRUI.h"; sourceTree = "<group>"; };
+		044CD415245180DD00A31831 /* NSPointerArray+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSPointerArray+TRUI.m"; sourceTree = "<group>"; };
+		044CD4172451823D00A31831 /* NSObject+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TRUI.h"; sourceTree = "<group>"; };
+		044CD4182451823D00A31831 /* NSObject+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TRUI.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04402836245523A80015AFB9 /* TRUICore */ = {
+			isa = PBXGroup;
+			children = (
+				04402837245523E70015AFB9 /* TRUICommonDefines.h */,
+				0440283F24556B680015AFB9 /* TRUIConfigurationMacros.h */,
+				044028402455711B0015AFB9 /* TRUIConfiguration.h */,
+				044028412455711B0015AFB9 /* TRUIConfiguration.m */,
+				0440283B24553A980015AFB9 /* TRUILab.h */,
+				0440283C24555B480015AFB9 /* TRUIRuntime.h */,
+				0440283D24555B480015AFB9 /* TRUIRuntime.m */,
+			);
+			path = TRUICore;
+			sourceTree = "<group>";
+		};
 		044CD3D02450327200A31831 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +120,7 @@
 		044CD3DB2450327200A31831 /* TRUI */ = {
 			isa = PBXGroup;
 			children = (
+				044CD3F82450419000A31831 /* TRUIKit */,
 				044CD3DC2450327200A31831 /* TRAppDelegate.h */,
 				044CD3DD2450327200A31831 /* TRAppDelegate.m */,
 				044CD3F52450340700A31831 /* TRViewController.h */,
@@ -66,6 +131,66 @@
 				044CD3EE2450327800A31831 /* main.m */,
 			);
 			path = TRUI;
+			sourceTree = "<group>";
+		};
+		044CD3F82450419000A31831 /* TRUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0440284624558FB10015AFB9 /* TRUIKit.h */,
+				04402836245523A80015AFB9 /* TRUICore */,
+				044CD40724513F3700A31831 /* UIKitExtensions */,
+				044CD3F9245041A900A31831 /* TRUIComponents */,
+			);
+			path = TRUIKit;
+			sourceTree = "<group>";
+		};
+		044CD3F9245041A900A31831 /* TRUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				044CD3FA245041BB00A31831 /* TRUILog */,
+				044CD4112451714100A31831 /* TRUIWeakObjectContainer.h */,
+				044CD4122451714100A31831 /* TRUIWeakObjectContainer.m */,
+			);
+			path = TRUIComponents;
+			sourceTree = "<group>";
+		};
+		044CD3FA245041BB00A31831 /* TRUILog */ = {
+			isa = PBXGroup;
+			children = (
+				044CD4042451314800A31831 /* TRUILog.h */,
+				044CD3FB245041DC00A31831 /* TRUILogger.h */,
+				044CD3FC245041DC00A31831 /* TRUILogger.m */,
+				044CD3FE2450454700A31831 /* TRUILogItem.h */,
+				044CD3FF2450454700A31831 /* TRUILogItem.m */,
+				044CD4012450488300A31831 /* TRUILogNameManager.h */,
+				044CD4022450488300A31831 /* TRUILogNameManager.m */,
+			);
+			path = TRUILog;
+			sourceTree = "<group>";
+		};
+		044CD40724513F3700A31831 /* UIKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				0440283824552D650015AFB9 /* CALayer+TRUI.h */,
+				0440283924552D660015AFB9 /* CALayer+TRUI.m */,
+				044CD40824513F5400A31831 /* NSArray+TRUI.h */,
+				044CD40924513F5400A31831 /* NSArray+TRUI.m */,
+				04350E752456E0B20083C4E3 /* NSAttributedString+TRUI.h */,
+				04350E762456E0B20083C4E3 /* NSAttributedString+TRUI.m */,
+				044CD40B2451670300A31831 /* NSCharacterSet+TRUI.h */,
+				044CD40C2451670300A31831 /* NSCharacterSet+TRUI.m */,
+				04402847245675280015AFB9 /* NSMethodSignature+TRUI.h */,
+				04402848245675280015AFB9 /* NSMethodSignature+TRUI.m */,
+				044CD40E2451702A00A31831 /* NSNumber+TRUI.h */,
+				044CD40F2451702A00A31831 /* NSNumber+TRUI.m */,
+				044CD4172451823D00A31831 /* NSObject+TRUI.h */,
+				044CD4182451823D00A31831 /* NSObject+TRUI.m */,
+				044CD414245180DD00A31831 /* NSPointerArray+TRUI.h */,
+				044CD415245180DD00A31831 /* NSPointerArray+TRUI.m */,
+				04402843245582400015AFB9 /* NSString+TRUI.h */,
+				04402844245582400015AFB9 /* NSString+TRUI.m */,
+			);
+			path = UIKitExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +262,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04402849245675280015AFB9 /* NSMethodSignature+TRUI.m in Sources */,
+				044CD40A24513F5400A31831 /* NSArray+TRUI.m in Sources */,
+				04402845245582400015AFB9 /* NSString+TRUI.m in Sources */,
+				044CD4192451823D00A31831 /* NSObject+TRUI.m in Sources */,
+				0440283E24555B480015AFB9 /* TRUIRuntime.m in Sources */,
+				044CD40D2451670300A31831 /* NSCharacterSet+TRUI.m in Sources */,
+				044CD4132451714100A31831 /* TRUIWeakObjectContainer.m in Sources */,
+				044CD4002450454700A31831 /* TRUILogItem.m in Sources */,
+				044CD4102451702A00A31831 /* NSNumber+TRUI.m in Sources */,
+				04350E772456E0B20083C4E3 /* NSAttributedString+TRUI.m in Sources */,
 				044CD3DE2450327200A31831 /* TRAppDelegate.m in Sources */,
 				044CD3EF2450327800A31831 /* main.m in Sources */,
+				044CD4032450488300A31831 /* TRUILogNameManager.m in Sources */,
+				044028422455711B0015AFB9 /* TRUIConfiguration.m in Sources */,
 				044CD3F72450340700A31831 /* TRViewController.m in Sources */,
+				044CD416245180DD00A31831 /* NSPointerArray+TRUI.m in Sources */,
+				0440283A24552D660015AFB9 /* CALayer+TRUI.m in Sources */,
+				044CD3FD245041DC00A31831 /* TRUILogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

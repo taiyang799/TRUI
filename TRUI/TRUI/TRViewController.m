@@ -7,6 +7,7 @@
 //
 
 #import "TRViewController.h"
+#import "TRUILog.h"
 
 @interface TRViewController ()
 
@@ -19,6 +20,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor redColor];
+    
+    TRUILog(@"测试",@"这是一个测试");
 }
 
 @end
