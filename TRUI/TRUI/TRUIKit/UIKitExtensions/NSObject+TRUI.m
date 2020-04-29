@@ -9,6 +9,9 @@
 #import "NSObject+TRUI.h"
 #import "TRUIWeakObjectContainer.h"
 #import <objc/message.h>
+#import "NSString+TRUI.h"
+#import "TRUIConfigurationMacros.h"
+#import "TRUICommonDefines.h"
 
 @implementation NSObject (TRUI)
 

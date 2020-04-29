@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		04350E772456E0B20083C4E3 /* NSAttributedString+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E762456E0B20083C4E3 /* NSAttributedString+TRUI.m */; };
+		04350E7A2456E5CA0083C4E3 /* NSMutableParagraphStyle+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E792456E5CA0083C4E3 /* NSMutableParagraphStyle+TRUI.m */; };
+		04350E7D2457CBA80083C4E3 /* NSURL+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E7C2457CBA80083C4E3 /* NSURL+TRUI.m */; };
+		04350E802457CCF80083C4E3 /* UIActivityIndicatorView+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E7F2457CCF80083C4E3 /* UIActivityIndicatorView+TRUI.m */; };
+		04350E832457CF120083C4E3 /* UIBarItem+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E822457CF120083C4E3 /* UIBarItem+TRUI.m */; };
+		04350E862457FCD10083C4E3 /* UIBezierPath+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E852457FCD10083C4E3 /* UIBezierPath+TRUI.m */; };
+		04350E892458004A0083C4E3 /* UIButton+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E882458004A0083C4E3 /* UIButton+TRUI.m */; };
+		04350E8C2458228E0083C4E3 /* UICollectionView+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E8B2458228E0083C4E3 /* UICollectionView+TRUI.m */; };
+		04350E8F245830710083C4E3 /* UIColor+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350E8E245830710083C4E3 /* UIColor+TRUI.m */; };
 		0440283A24552D660015AFB9 /* CALayer+TRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440283924552D660015AFB9 /* CALayer+TRUI.m */; };
 		0440283E24555B480015AFB9 /* TRUIRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440283D24555B480015AFB9 /* TRUIRuntime.m */; };
 		044028422455711B0015AFB9 /* TRUIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 044028412455711B0015AFB9 /* TRUIConfiguration.m */; };
@@ -32,6 +40,22 @@
 /* Begin PBXFileReference section */
 		04350E752456E0B20083C4E3 /* NSAttributedString+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+TRUI.h"; sourceTree = "<group>"; };
 		04350E762456E0B20083C4E3 /* NSAttributedString+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+TRUI.m"; sourceTree = "<group>"; };
+		04350E782456E5CA0083C4E3 /* NSMutableParagraphStyle+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableParagraphStyle+TRUI.h"; sourceTree = "<group>"; };
+		04350E792456E5CA0083C4E3 /* NSMutableParagraphStyle+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableParagraphStyle+TRUI.m"; sourceTree = "<group>"; };
+		04350E7B2457CBA80083C4E3 /* NSURL+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+TRUI.h"; sourceTree = "<group>"; };
+		04350E7C2457CBA80083C4E3 /* NSURL+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+TRUI.m"; sourceTree = "<group>"; };
+		04350E7E2457CCF80083C4E3 /* UIActivityIndicatorView+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+TRUI.h"; sourceTree = "<group>"; };
+		04350E7F2457CCF80083C4E3 /* UIActivityIndicatorView+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+TRUI.m"; sourceTree = "<group>"; };
+		04350E812457CF120083C4E3 /* UIBarItem+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarItem+TRUI.h"; sourceTree = "<group>"; };
+		04350E822457CF120083C4E3 /* UIBarItem+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarItem+TRUI.m"; sourceTree = "<group>"; };
+		04350E842457FCD10083C4E3 /* UIBezierPath+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TRUI.h"; sourceTree = "<group>"; };
+		04350E852457FCD10083C4E3 /* UIBezierPath+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TRUI.m"; sourceTree = "<group>"; };
+		04350E872458004A0083C4E3 /* UIButton+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TRUI.h"; sourceTree = "<group>"; };
+		04350E882458004A0083C4E3 /* UIButton+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TRUI.m"; sourceTree = "<group>"; };
+		04350E8A2458228E0083C4E3 /* UICollectionView+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TRUI.h"; sourceTree = "<group>"; };
+		04350E8B2458228E0083C4E3 /* UICollectionView+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TRUI.m"; sourceTree = "<group>"; };
+		04350E8D245830710083C4E3 /* UIColor+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TRUI.h"; sourceTree = "<group>"; };
+		04350E8E245830710083C4E3 /* UIColor+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TRUI.m"; sourceTree = "<group>"; };
 		04402837245523E70015AFB9 /* TRUICommonDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRUICommonDefines.h; sourceTree = "<group>"; };
 		0440283824552D650015AFB9 /* CALayer+TRUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+TRUI.h"; sourceTree = "<group>"; };
 		0440283924552D660015AFB9 /* CALayer+TRUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TRUI.m"; sourceTree = "<group>"; };
@@ -181,6 +205,8 @@
 				044CD40C2451670300A31831 /* NSCharacterSet+TRUI.m */,
 				04402847245675280015AFB9 /* NSMethodSignature+TRUI.h */,
 				04402848245675280015AFB9 /* NSMethodSignature+TRUI.m */,
+				04350E782456E5CA0083C4E3 /* NSMutableParagraphStyle+TRUI.h */,
+				04350E792456E5CA0083C4E3 /* NSMutableParagraphStyle+TRUI.m */,
 				044CD40E2451702A00A31831 /* NSNumber+TRUI.h */,
 				044CD40F2451702A00A31831 /* NSNumber+TRUI.m */,
 				044CD4172451823D00A31831 /* NSObject+TRUI.h */,
@@ -189,6 +215,20 @@
 				044CD415245180DD00A31831 /* NSPointerArray+TRUI.m */,
 				04402843245582400015AFB9 /* NSString+TRUI.h */,
 				04402844245582400015AFB9 /* NSString+TRUI.m */,
+				04350E7B2457CBA80083C4E3 /* NSURL+TRUI.h */,
+				04350E7C2457CBA80083C4E3 /* NSURL+TRUI.m */,
+				04350E7E2457CCF80083C4E3 /* UIActivityIndicatorView+TRUI.h */,
+				04350E7F2457CCF80083C4E3 /* UIActivityIndicatorView+TRUI.m */,
+				04350E812457CF120083C4E3 /* UIBarItem+TRUI.h */,
+				04350E822457CF120083C4E3 /* UIBarItem+TRUI.m */,
+				04350E842457FCD10083C4E3 /* UIBezierPath+TRUI.h */,
+				04350E852457FCD10083C4E3 /* UIBezierPath+TRUI.m */,
+				04350E872458004A0083C4E3 /* UIButton+TRUI.h */,
+				04350E882458004A0083C4E3 /* UIButton+TRUI.m */,
+				04350E8A2458228E0083C4E3 /* UICollectionView+TRUI.h */,
+				04350E8B2458228E0083C4E3 /* UICollectionView+TRUI.m */,
+				04350E8D245830710083C4E3 /* UIColor+TRUI.h */,
+				04350E8E245830710083C4E3 /* UIColor+TRUI.m */,
 			);
 			path = UIKitExtensions;
 			sourceTree = "<group>";
@@ -262,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04350E862457FCD10083C4E3 /* UIBezierPath+TRUI.m in Sources */,
 				04402849245675280015AFB9 /* NSMethodSignature+TRUI.m in Sources */,
 				044CD40A24513F5400A31831 /* NSArray+TRUI.m in Sources */,
+				04350E802457CCF80083C4E3 /* UIActivityIndicatorView+TRUI.m in Sources */,
 				04402845245582400015AFB9 /* NSString+TRUI.m in Sources */,
+				04350E8F245830710083C4E3 /* UIColor+TRUI.m in Sources */,
+				04350E832457CF120083C4E3 /* UIBarItem+TRUI.m in Sources */,
 				044CD4192451823D00A31831 /* NSObject+TRUI.m in Sources */,
 				0440283E24555B480015AFB9 /* TRUIRuntime.m in Sources */,
 				044CD40D2451670300A31831 /* NSCharacterSet+TRUI.m in Sources */,
@@ -272,12 +316,16 @@
 				044CD4002450454700A31831 /* TRUILogItem.m in Sources */,
 				044CD4102451702A00A31831 /* NSNumber+TRUI.m in Sources */,
 				04350E772456E0B20083C4E3 /* NSAttributedString+TRUI.m in Sources */,
+				04350E7D2457CBA80083C4E3 /* NSURL+TRUI.m in Sources */,
 				044CD3DE2450327200A31831 /* TRAppDelegate.m in Sources */,
 				044CD3EF2450327800A31831 /* main.m in Sources */,
+				04350E8C2458228E0083C4E3 /* UICollectionView+TRUI.m in Sources */,
 				044CD4032450488300A31831 /* TRUILogNameManager.m in Sources */,
 				044028422455711B0015AFB9 /* TRUIConfiguration.m in Sources */,
 				044CD3F72450340700A31831 /* TRViewController.m in Sources */,
+				04350E892458004A0083C4E3 /* UIButton+TRUI.m in Sources */,
 				044CD416245180DD00A31831 /* NSPointerArray+TRUI.m in Sources */,
+				04350E7A2456E5CA0083C4E3 /* NSMutableParagraphStyle+TRUI.m in Sources */,
 				0440283A24552D660015AFB9 /* CALayer+TRUI.m in Sources */,
 				044CD3FD245041DC00A31831 /* TRUILogger.m in Sources */,
 			);
